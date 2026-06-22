@@ -1,0 +1,26 @@
+{
+  "name": "memory_leak_detection",
+  "domain": "software",
+  "passed": true,
+  "metrics": {
+    "anomalies_detected": 1,
+    "hypotheses_generated": 2
+  },
+  "steps": [
+    {
+      "step": "observe",
+      "action": "scan project"
+    },
+    {
+      "step": "hypothesize",
+      "action": "generate explanations"
+    },
+    {
+      "step": "audit",
+      "action": "falsify weak hypotheses"
+    }
+  ],
+  "error": null,
+  "duration_ms": 0.0,
+  "timestamp": "2026-06-22T07:49:35.814770"
+}

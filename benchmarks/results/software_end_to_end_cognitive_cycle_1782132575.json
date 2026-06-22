@@ -1,0 +1,28 @@
+{
+  "name": "end_to_end_cognitive_cycle",
+  "domain": "software",
+  "passed": true,
+  "metrics": {
+    "cycles_completed": 2,
+    "causal_nodes": 20,
+    "plan_steps": 0,
+    "memory_episodes": 43
+  },
+  "steps": [
+    {
+      "step": "observe",
+      "result": "C1"
+    },
+    {
+      "step": "observe",
+      "result": "C2"
+    },
+    {
+      "step": "plan",
+      "result": "0 steps"
+    }
+  ],
+  "error": null,
+  "duration_ms": 0.0,
+  "timestamp": "2026-06-22T07:49:35.825288"
+}

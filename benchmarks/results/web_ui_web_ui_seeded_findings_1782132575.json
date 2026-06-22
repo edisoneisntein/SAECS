@@ -1,0 +1,25 @@
+{
+  "name": "web_ui_seeded_findings",
+  "domain": "web_ui",
+  "passed": true,
+  "metrics": {
+    "expected_findings": 3,
+    "detected_expectations": 3,
+    "precision_proxy": 0.5,
+    "recall_proxy": 1.0,
+    "ux_risk_score": 0.8
+  },
+  "steps": [
+    {
+      "step": "observe",
+      "action": "scan web UI fixture"
+    },
+    {
+      "step": "score",
+      "action": "compare seeded expectations"
+    }
+  ],
+  "error": null,
+  "duration_ms": 0.0,
+  "timestamp": "2026-06-22T07:49:35.837891"
+}
